@@ -68,7 +68,7 @@ a {
 }
 
 div.navbar-logo>img {
-    max-height: 25px;
+    height: 25px;
     width: auto;
 }
 
@@ -80,4 +80,73 @@ div.navbar-logo>img {
 
 .navbar-actions a {
     margin-left: 5px;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 100px;
+}
+
+.card {
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
+
+.card>img {
+    height: 100%;
+    width: 100%;
+}
+
+.card>.discount {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 3px 7px;
+}
+
+.card>.sustain {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    color: #fff;
+    background-color: #008000;
+    padding: 3px 7px;
+}
+
+/* Cuore */
+.card>.favorite {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Descrizione prodotto */
+.brand {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.product {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.discount-price {
+    color: #ff0000;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.full-price {
+    text-decoration: line-through;
 }
