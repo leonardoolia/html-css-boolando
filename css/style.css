@@ -1,5 +1,29 @@
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generals */
+header,
+footer {
+    color: #fff;
+}
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+
+/* Header */
