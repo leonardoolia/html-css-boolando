@@ -27,6 +27,24 @@ footer {
     border: 1px solid black;
 }
 
+/* Cambio immagine */
+
+.main-image {
+    display: block;
+}
+
+.layover {
+    display: none;
+}
+
+.main-image:hover {
+    display: none;
+}
+
+.layover:hover {
+    display: block;
+}
+
 
 /* HEADER */
 header {
@@ -138,6 +156,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card>.favorite:hover {
+    color: red;
 }
 
 /* Descrizione prodotto */
