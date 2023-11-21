@@ -92,9 +92,13 @@ main {
     margin-top: 100px;
 }
 
+.col {
+    flex-basis: calc(100% / 3 - 10px);
+}
+
 .card {
     height: 500px;
-    width: 350px;
+    /*  width: 350px; */
     position: relative;
     /* margin-right: 50px;*/
     margin-bottom: 80px;
@@ -105,7 +109,7 @@ main {
     width: 100%;
 }
 
-.card>.discount {
+.prod-info>.discount {
     position: absolute;
     bottom: 20px;
     left: 0;
@@ -114,7 +118,7 @@ main {
     padding: 3px 7px;
 }
 
-.card>.sustain {
+.prod-info>.sustain {
     position: absolute;
     bottom: 20px;
     left: 60px;
