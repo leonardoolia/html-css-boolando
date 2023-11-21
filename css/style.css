@@ -152,6 +152,12 @@ main {
     padding: 3px 7px;
 }
 
+#special {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
 /* Cuore */
 .card>.favorite {
     height: 40px;
