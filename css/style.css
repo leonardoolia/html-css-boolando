@@ -170,6 +170,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .card>.favorite:hover {
