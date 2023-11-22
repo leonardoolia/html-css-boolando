@@ -118,7 +118,8 @@ main {
 }
 
 .col {
-    flex-basis: calc(100% / 3 - 10px);
+    /* flex-basis: calc(100% / 3 - 10px); */
+    flex-basis: calc(100% / 3 - 20px / 3);
 }
 
 .card {
@@ -211,6 +212,7 @@ h2 {
 h3,
 .boolean-info>ul {
     font-size: 12px;
+    margin-bottom: 5px;
 
 }
 
